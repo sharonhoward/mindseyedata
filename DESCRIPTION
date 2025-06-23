@@ -1,0 +1,19 @@
+Package: mindseyedata
+Type: Package
+Title: Historical datasets for mindseye.sharonhoward.org
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Sharon", "Howard",
+      email = "sharon@sharonhoward.org",
+      role = c("aut", "cre")
+    )
+  )
+Description: Historical datasets based on publicly available data.
+    Datasets have been cleaned and processed to prepare for use.
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.2
