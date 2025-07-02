@@ -6,6 +6,6 @@ tpop_qs_petitions_xlsx <-
 cheshire_petitions <-
   tpop_qs_petitions_xlsx |>
   filter(county =="Cheshire") |>
-  select(petition_id, year, topic, subtopic, petition_type, named_petrs, petition_gender, response=response_cat, petitioner, reference, repository)
+  select(petition_id, year, topic, subtopic, petition_type, named_petrs, petition_gender, response=response_cat, petitioner, abstract, reference, repository)
 
 usethis::use_data(cheshire_petitions, overwrite = TRUE)
