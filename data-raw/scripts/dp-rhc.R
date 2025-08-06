@@ -21,7 +21,7 @@ rhc <-
   janitor::clean_names("snake") |>
   inner_join(rhc_years_csv, join_by(tna_reference))  |>
   inner_join(dp_ids_csv, join_by(dp_id)) |>
-  select(dp_id, year= start_year, gender, year_birth, marital, height_inches, build, given, surname, dp_life_id, tna_reference) |>
+  select(dp_id, year= start_year, gender, year_birth, marital, height_inches, build, dp_life_id, tna_reference) |>
   # clean up marital
   mutate(marital = str_to_lower(marital),
          marital = str_trim(str_remove_all(marital, "[:punct:]|[0-9]+"))) |>
