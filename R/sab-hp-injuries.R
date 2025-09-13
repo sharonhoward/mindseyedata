@@ -4,6 +4,6 @@
 #' One injury per row: includes year of description, year of birth, gender, injury category and location.  The description_id variable links together injuries in the same description.
 #'
 #' @author \href{https://sharonhoward.org}{Sharon Howard}
-#' @format A data frame with 17848 observations of 16 variables.
+#' @format A data frame with 17848 observations of 18 variables.
 #' @references Skin and Bone (2023). https://www.dhi.ac.uk/data/skin-and-bone
 "sab_hp_injuries"

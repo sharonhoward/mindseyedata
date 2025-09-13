@@ -5,7 +5,7 @@
 \alias{sab_dp_injuries}
 \title{Skin and Bone: Digital Panopticon injuries data 1790-1901}
 \format{
-A data frame with 68525 observations of 14 variables.
+A data frame with 68525 observations of 16 variables.
 }
 \usage{
 sab_dp_injuries

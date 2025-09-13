@@ -5,7 +5,7 @@
 \alias{sab_hp_injuries}
 \title{Skin and Bone: Hospital records injuries data 1790-1901}
 \format{
-A data frame with 17848 observations of 16 variables.
+A data frame with 17848 observations of 18 variables.
 }
 \usage{
 sab_hp_injuries
